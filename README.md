@@ -3,13 +3,13 @@
 ## Docker command
 
 ```bash
-docker run -it --rm -v ${GHQ_ROOT}:/root/ghq ghq get "TakashiAihara/helloworld"
+docker run -it --rm -v ${GHQ_ROOT}:/root/ghq TakashiAihara/ghq get "TakashiAihara/helloworld"
 ```
 
 ## Register alias
 
 ```
-alias ghq='docker run -it --rm -v ${GHQ_ROOT}:/root/ghq ghq'
+alias ghq='docker run -it --rm -v ${GHQ_ROOT}:/root/ghq TakashiAihara/ghq'
 ```
 
 ```bash
